@@ -1,0 +1,35 @@
+//To convert human years to dog years: 2 years of a dogs life = 10.5 dog years each & each year following equates to 4 dog years
+
+var myAge = 19;
+// Created a variable equal to my age
+var earlyYears = 2;
+// Created a variable equal to a dogs early years (this value will change)
+earlyYears *=10.5;
+// Multiplying early years by 10.5 (This equates to the early dog years each)
+let laterYears = myAge - 2;
+// Accounting the early years of a dogs life equal to the dogs later years
+laterYears *=4;
+//Dogs later years being calculated by the variable  to calculate the number of dog years for the later years
+//Checking work
+console.log(earlyYears)
+console.log(laterYears)
+
+//To convert human years to dog years: 2 years of a dogs life = 10.5 dog years each & each year following equates to 4 dog years
+
+var myAge = 19;
+// Created a variable equal to my age
+var earlyYears = 2;
+// Created a variable equal to a dogs early years (this value will change)
+earlyYears *=10.5;
+// Multiplying early years by 10.5 (This equates to the early dog years each)
+let laterYears = myAge - 2;
+// Accounting the early years of a dogs life equal to the dogs later years
+laterYears *=4;
+//Dogs later years being calculated by the variable  to calculate the number of dog years for the later years
+//Checking work
+console.log(earlyYears)
+console.log(laterYears)
+var myAgeInDogYears = parseInt(earlyYears) + parseInt(laterYears);
+// Combined dog's early years with later years to work out human age
+var myName = 'Georgia Summers'.toLowerCase();
+console.log(`My name is ${myName}. I am ${myAgeInDogYears} years old in dog years.`);
